@@ -45,7 +45,7 @@ oceania = df.loc[df['Continente'] == 'Oceania']
 print(oceania.head())
 
 # FIXME: Agrupamento de dados
-print('\n\tRetorna os valores diferentes da coluna:\n')
+print('\n\tRetorna os valores diferentes da coluna continente:\n')
 print(df.groupby('Continente')['Pais'].nunique())
 
 # FIXME: Agrupa a media de expectativa de vida por ano
